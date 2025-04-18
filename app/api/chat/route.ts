@@ -6,7 +6,7 @@ import { NextResponse } from 'next/server';
 import { z } from 'zod';
 import OpenAI from 'openai';
 
-export const maxDuration = 300;
+export const maxDuration = 60;
 
 // Message type enum
 enum MessageType {
