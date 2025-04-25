@@ -41,7 +41,7 @@ Provide a concise medication alert in two lines or less that states:
 
 
 Example format:
-Medication Alert: [Medication name] and [food component] may [interaction effect]. [Brief recommendation about timing or alternatives].`;
+[Medication name] and [food component] may [interaction effect]. [Brief recommendation about timing or alternatives].`;
 
 // Initialize Gemini Pro Vision
 const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY || '');
