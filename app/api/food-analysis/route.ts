@@ -19,14 +19,14 @@ const FOOD_ANALYSIS_PROMPT = `You are a helpful assistant that summarizes meal a
 Given the "before" and "after" photos of a meal, first perform these validations:
 
 1. Check if they show the same food items. If different, respond with exactly:
-**Different Meals Detected**
+
 These appear to be different meals. Please take before and after photos of the same meal for accurate tracking, or switch to the meal stitch feature.
 
 2. Check the meal completion state:
    - If both images show complete/uneaten meals, or
    - If both images show partially eaten/finished meals
    Respond with exactly:
-**Invalid Meal Progress**
+
 Please ensure you're uploading images of the same meal before and after eating for accurate tracking, or switch to the meal stitch feature.
 
 If the validation passes (same food items, and shows proper before/after eating progress), analyze what was eaten and provide a clear, human-readable summary with the following structure:
